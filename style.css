@@ -256,8 +256,8 @@ article#article {
 }
 
 ul.footer_link, ul.social_link {
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     list-style: none;
@@ -286,4 +286,13 @@ ul.social_link li {
 footer#footer {
     margin-top: 5rem;
     margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+    ul.footer_link {
+        flex-direction: column;
+    }
+    footer#footer {
+        margin-bottom: 5rem;
+    }
 }
