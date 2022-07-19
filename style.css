@@ -256,6 +256,7 @@ article#article {
 }
 
 ul.footer_link, ul.social_link {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
