@@ -52,14 +52,14 @@ body {
     display: flex;
     align-items: center;
     gap: .5rem;
-}
-a.btn {
-    text-decoration: none;
     color: #fff;
     background: linear-gradient(313deg, #6818ab, #883fb2);
     padding: .8rem 2rem;
     border-radius: .3em;
     box-shadow: 0 0 22px #863dafb8;
+}
+a.btn {
+    text-decoration: none;
 }
 @media screen and (max-width: 768px) {
     .header_content {
