@@ -242,3 +242,47 @@ article#article {
 }
 
 /* Main section end */
+
+
+/* Footer */
+.footer_content {
+    background: #000;
+    border-radius: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    display: grid;
+    gap: 2rem;
+}
+
+ul.footer_link, ul.social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+ul.footer_link a, ul.social_link a {
+    text-decoration: none;
+    color: #979595;
+}
+
+ul.social_link a {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+ul.social_link li {
+    background: #dd0000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+footer#footer {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
