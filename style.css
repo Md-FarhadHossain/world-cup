@@ -296,3 +296,34 @@ footer#footer {
         margin-bottom: 5rem;
     }
 }
+
+/* Match content */
+.match_content {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+.match_flag img {
+    width: 35%;
+}
+
+.match_flag {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.match_flag span {
+    font-weight: 500;
+}
+
+/* Match responsive */
