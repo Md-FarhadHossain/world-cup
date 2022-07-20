@@ -33,6 +33,7 @@ body {
 
 .header_left {
     padding: 4rem 0;
+    width: 50%;
 }
 
 .header_left h1 {
@@ -45,7 +46,9 @@ body {
 .header_left p {
     color: #FFF;
 }
-
+.header_right {
+    width: 50%;
+}
 .live_btn {
     margin-top: 2rem;
     display: inline-block;
@@ -70,6 +73,15 @@ body {
 a.btn {
     text-decoration: none;
 }
+/* Header responsive */
+@media screen and (max-width: 820px) {
+    .header_left p {
+        font-size: .83rem;
+    }
+    .header_left h1 {
+        font-size: 1.6rem;
+    }
+}
 
 @media screen and (max-width: 576px) {
     .header_content {
@@ -88,6 +100,12 @@ a.btn {
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
+    }
+    .header_left {
+        width: 100%;
+    }
+    .header_right {
+        width: 100%;
     }
 }
 
@@ -264,7 +282,7 @@ article#article {
     border-radius: 2rem;
     color: #fff;
     text-align: center;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     display: grid;
     gap: 2rem;
 }
@@ -315,6 +333,12 @@ footer#footer {
     }
     footer#footer {
         margin-bottom: 5rem;
+    }
+    ul.social_link li {
+        border-radius: 100%;
+    }
+    .footer_content { 
+        padding: 1.5rem 1rem;
     }
 }
 
