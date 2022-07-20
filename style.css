@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, #2b0848, #883fb2);
+    background: linear-gradient(135deg, #000000, #53006e);
     border-radius: 2rem;
     margin-top: 3rem;
     padding: 0 4rem;
@@ -56,10 +56,15 @@ body {
     align-items: center;
     gap: .5rem;
     color: #fff;
-    background: linear-gradient(313deg, #6818ab, #883fb2);
+    background: linear-gradient(0deg, #00adff, #008bc1);
     padding: .8rem 2rem;
-    border-radius: .3em;
-    box-shadow: 0 0 22px #863dafb8;
+    border-radius: .5em;
+    box-shadow: 0 0 22px #00a4ee40;
+
+    transition: all .4s ease;
+}
+.live_btn span:hover {
+    background: linear-gradient(90deg, #008bc1, #00adff);
 }
 
 a.btn {
@@ -127,6 +132,7 @@ main#main {
     text-align: center;
     border-radius: .5em;
     font-weight: bold;
+    background: linear-gradient(0deg, #ffffff, #dddddd);
 }
 
 .blogs {
@@ -148,7 +154,7 @@ article#article {
 }
 
 .blog_btn {
-    background: #DD0000;
+    background: linear-gradient(0deg, #00adff, #008bc1);
     color: #fff;
 }
 
@@ -277,6 +283,9 @@ ul.social_link a {
     height: 100%;
     color: #fff;
 }
+.social_link li:hover {
+    background: linear-gradient(0deg, #00adff, #008bc1);
+}
 ul.social_link li {
     background: #444;
     width: 50px;
@@ -286,6 +295,10 @@ ul.social_link li {
 footer#footer {
     margin-top: 5rem;
     margin-bottom: 3rem;
+}
+.footer_content h1 {
+    border-bottom: 1px solid #373434;
+    padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -325,5 +338,11 @@ footer#footer {
 .match_flag span {
     font-weight: 500;
 }
-
+.upcoming_btn {
+    background: linear-gradient(0deg, #00adff, #008bc1);
+    color: #fff;
+}
+.upcoming_btn:hover {
+    background: linear-gradient(90deg, #008bc1, #00adff);
+}
 /* Match responsive */
