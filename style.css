@@ -134,6 +134,10 @@ main#main {
     font-weight: bold;
     background: linear-gradient(0deg, #ffffff, #dddddd);
 }
+.matchUpdate_btns *:hover {
+    background: linear-gradient(0deg, #00adff, #008bc1);
+    color: #fff;
+}
 
 .blogs {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
