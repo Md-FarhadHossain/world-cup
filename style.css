@@ -131,6 +131,12 @@ main#main {
 .article_image {
     overflow: hidden;
 }
+.transfer {
+    margin-top: .5rem;
+}
+.title {
+    height: 70px;
+}
 .matchUpdate_btns {
     background: #161616;
     display: flex;
