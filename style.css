@@ -278,10 +278,10 @@ ul.social_link a {
     color: #fff;
 }
 ul.social_link li {
-    background: #dd0000;
+    background: #444;
     width: 50px;
     height: 50px;
-    border-radius: 100%;
+    border-radius: .3em;
 }
 footer#footer {
     margin-top: 5rem;
